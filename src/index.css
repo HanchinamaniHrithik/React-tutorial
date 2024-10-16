@@ -1,0 +1,30 @@
+/* index.css */
+
+.Booklist {
+  display: flex; /* Display books in a row */
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  background-color: rgb(228, 212, 214);
+  gap: 20px; /* Space between books */
+}
+
+.BookClass {
+  align-items: center;
+  background-color: #23254f;
+  width: 200px; /* Set a fixed width */
+  height: 300px; /* Set a fixed height */
+  border: 1px solid #1f1d1d; /* Optional: Add a border */
+  border-radius: 10px; /* Optional: Rounded corners */
+  overflow: hidden; /* Hide overflow content */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-between; /* Space between content */
+  text-align: center; /* Center the text */
+  padding: 40px; /* Add some padding */
+}
+
+.BookClass img {
+  width: 100%; /* Make the image take full width */
+  height: auto; /* Keep aspect ratio */
+  max-height: 150px; /* Set a max height for images */
+  object-fit: contain; /* Crop the image to fill the area */
+}
